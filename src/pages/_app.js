@@ -12,7 +12,9 @@ const noto = Noto_Serif({
 });
 
 function MyApp({ Component, pageProps }) {
-  return (
+  const getLayout = Component.getLayout || ((page) => page);
+
+  return getLayout(
     <main className={`${inter.variable} ${noto.variable}`}>
       <Component {...pageProps} />
     </main>
