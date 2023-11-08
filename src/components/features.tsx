@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Features = () => {
   return (
-    <div className="Features_pageContainer Features_featuresContentsContainer mb-[240px] px-[12%]">
+    <div className="Features_pageContainer Features_featuresContentsContainer mb-4 px-[12%]">
       <section className="FeaturesContentSection_featureContentSection text-center relative w-full">
         <div
           className="FeaturesContentSection_scrollAnchor absolute -top-24 w-0 h-0"

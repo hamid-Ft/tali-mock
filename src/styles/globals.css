@@ -137,3 +137,47 @@ h2 {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.BenefitsOfTaliSection_benefitCard {
+  background: #fff;
+  box-shadow: 0 3px 5px #dae0f7, 6px 30px 20px rgba(210, 231, 255, 0.2);
+  border-radius: 16px;
+  padding: 40px;
+  flex: 1;
+}
+.BenefitsOfTaliSection_benefitCard .BenefitsOfTaliSection_benefitTitle {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #000;
+  margin: 8px 0 32px;
+}
+
+.BenefitsOfTaliSection_benefitCard .BenefitsOfTaliSection_benefitText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  color: #000;
+}
+.WhereToStartSection_image {
+  flex: 1;
+  border-radius: 20px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border: 12px solid #fff;
+  box-shadow: 0 3px 5px #dae0f7, 6px 30px 20px rgba(210, 231, 255, 0.2);
+}
+.WhereToStartSection_advancedBtn {
+  background: linear-gradient(270deg, #ffb30f 2.18%, #a25ecb 72.63%);
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+  padding: 1px;
+  border-radius: 100px;
+  position: relative;
+  user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

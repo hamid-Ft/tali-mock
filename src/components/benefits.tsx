@@ -1,19 +1,17 @@
+import Image from "next/image";
+
 const Benefits = () => {
   return (
-    <div className="Features_pageContainer__Mf2jS">
-      <div className="Features_benefitsPart__MhSKH">
+    <div className="Features_pageContainer px-[12%]">
+      <div className="Features_benefitsPart mb-60">
         <div className="flex flex-col items-center mb-6">
-          <div
-            className="Text_container__Bbxc2 mb-3"
-            data-style="justify-content: center;">
-            <h2 className="Text_lightHeader__48nHm Text_titleH2__FZESN">
+          <div className="Text_container flex justify-center items-center max-w-3xl mb-3">
+            <h2 className="Text_lightHeader Text_titleH2 font-noto">
               Benefits of Tali
             </h2>
           </div>
-          <div
-            className="Text_container__Bbxc2 text-center mb-16"
-            data-style="justify-content: center;">
-            <div className="Text_lightParagraph__6ePyG Text_paragraph1__Qd_YQ">
+          <div className="Text_container text-center flex items-center justify-center max-w-3xl mb-16">
+            <div className="Text_lightParagraph Text_paragraph1">
               We have worked hard on shaping our identity as a company and we
               have come up with the following values and culture. If they
               resonate with you, please reach out! We are always looking for
@@ -21,63 +19,58 @@ const Benefits = () => {
             </div>
           </div>
         </div>
-        <div className="BenefitsOfTaliSection_benefitsCardContainer__SMSbb">
-          <div className="BenefitsOfTaliSection_benefitCard__IDMIf">
-            <img
+        <div className="BenefitsOfTaliSection_benefitsCardContainer flex gap-8">
+          <div className="BenefitsOfTaliSection_benefitCard">
+            <Image
               alt="feature intro item icon"
               loading="lazy"
-              width="30"
-              height="30"
+              width={30}
+              height={30}
               decoding="async"
               data-nimg="1"
-              src="/features/chart-arrow-up.svg"
-              data-style="color: transparent;"
+              src="https://tali.ai/features/chart-arrow-up.svg"
             />
-            <div className="BenefitsOfTaliSection_benefitTitle__ZjHdL">
-              Save Time
-            </div>
-            <div className="BenefitsOfTaliSection_benefitText__OamsN">
+            <div className="BenefitsOfTaliSection_benefitTitle">Save Time</div>
+            <div className="BenefitsOfTaliSection_benefitText">
               designed to save time for healthcare professionals by streamlining
               workflows. Its real-time speech-to-text transcription allows
               physicians to dictate information, eliminating the need for manual
               data entry.
             </div>
           </div>
-          <div className="BenefitsOfTaliSection_benefitCard__IDMIf">
-            <img
+          <div className="BenefitsOfTaliSection_benefitCard">
+            <Image
               alt="feature intro item icon"
               loading="lazy"
               width="30"
               height="30"
               decoding="async"
               data-nimg="1"
-              src="/features/user-stethoscope.svg"
-              data-style="color: transparent;"
+              src="https://tali.ai/features/user-stethoscope.svg"
             />
-            <div className="BenefitsOfTaliSection_benefitTitle__ZjHdL">
+            <div className="BenefitsOfTaliSection_benefitTitle">
               Cost Saving
             </div>
-            <div className="BenefitsOfTaliSection_benefitText__OamsN">
+            <div className="BenefitsOfTaliSection_benefitText">
               By reducing the need for manual data entry and other
               administrative tasks, Tali can help to lower costs for healthcare
               organizations and reduce staff workload.
             </div>
           </div>
-          <div className="BenefitsOfTaliSection_benefitCard__IDMIf">
-            <img
+          <div className="BenefitsOfTaliSection_benefitCard">
+            <Image
               alt="feature intro item icon"
               loading="lazy"
               width="30"
               height="30"
               decoding="async"
               data-nimg="1"
-              src="/features/rocket.svg"
-              data-style="color: transparent;"
+              src="https://tali.ai/features/rocket.svg"
             />
-            <div className="BenefitsOfTaliSection_benefitTitle__ZjHdL">
+            <div className="BenefitsOfTaliSection_benefitTitle">
               Fully Integrated
             </div>
-            <div className="BenefitsOfTaliSection_benefitText__OamsN">
+            <div className="BenefitsOfTaliSection_benefitText">
               This integration allows physicians to access patient information,
               schedule appointments, and order lab tests directly from within
               the Oscar Pro EMR system, eliminating the need to switch between
@@ -86,18 +79,14 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-      <div className="Features_securityPart__WFYFP">
-        <div
-          className="Text_container__Bbxc2 mb-4"
-          data-style="justify-content: center;">
-          <h2 className="Text_lightHeader__48nHm Text_titleH2__FZESN">
+      <div className="Features_securityPart pb-60 max-w-2xl text-center m-auto">
+        <div className="Text_container flex justify-center items-center max-w-3xl mb-4">
+          <h2 className="Text_lightHeader Text_titleH2 font-noto">
             Dedicated to Security and Privacy
           </h2>
         </div>
-        <div
-          className="Text_container__Bbxc2"
-          data-style="justify-content: center;">
-          <div className="Text_lightParagraph__6ePyG Text_paragraph1__Qd_YQ">
+        <div className="Text_container justify-center">
+          <div className="Text_lightParagraph Text_paragraph1">
             Tali AI is compliant in both the Personal Information Protection Act
             (PIPA) and the Personal Information Protection and Electronic
             Documents Act (PIPEDA). All of our services including our free AI
@@ -107,24 +96,22 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto WhereToStartSection_wrapper__crp9W Features_whereToStartPart__Antua">
-        <img
-          className="WhereToStartSection_image__ccnmq"
-          src="/features/where-to-start.png"
+      <div className="container mx-auto WhereToStartSection_wrapper flex items-center gap-8 Features_whereToStartPart">
+        <Image
+          width={574}
+          height={503}
+          className="WhereToStartSection_image"
+          src="/where-to-start.png"
           alt="Tali integration with OSCAR Pro"
         />
-        <div className="WhereToStartSection_content__4x4fU">
-          <div
-            className="Text_container__Bbxc2 justify-start mb-6"
-            data-style="justify-content: center;">
-            <h2 className="Text_lightHeader__48nHm Text_titleH2__FZESN">
+        <div className="WhereToStartSection_content flex flex-grow flex-col items-start">
+          <div className="Text_container justify-start mb-6">
+            <h2 className="Text_lightHeader Text_titleH2 font-noto">
               Where to start
             </h2>
           </div>
-          <div
-            className="Text_container__Bbxc2"
-            data-style="justify-content: center;">
-            <div className="Text_lightParagraph__6ePyG Text_paragraph1__Qd_YQ">
+          <div className="Text_container max-w-3xl justify-center">
+            <div className="Text_lightParagraph Text_paragraph1">
               To start using Tali, you will be prompted to sign up or sign in
               after clicking on the widget on the right of your Oscar Pro
               homepage. Once you enter an email, Tali will identify if that
@@ -137,453 +124,23 @@ const Benefits = () => {
           </div>
           <div className="mt-6 w-full max-w-md">
             <a href="https://www.youtube.com/watch?v=e3fzdAMNmZk">
-              <div className="WhereToStartSection_advancedBtn__rarO2">
-                <div className="flex flex-row">
-                  <img
-                    src="/features/play-circle-filled-white.svg"
+              <div className="WhereToStartSection_advancedBtn">
+                <div className="flex flex-row justify-center items-center cursor-pointer border-none text-white w-full rounded-full transition-colors ease-in-out duration-300 bg-[#261835] py-4">
+                  <Image
+                    src="https://tali.ai/features/play-circle-filled-white.svg"
                     alt="play icon"
                     className="mr-1"
+                    width={20}
+                    height={20}
                   />
-                  <div
-                    className="Text_container__Bbxc2"
-                    data-style="justify-content: center;">
-                    <div className="Text_paragraph1__Qd_YQ">
+                  <div className="Text_container">
+                    <div className="Text_paragraph1">
                       Getting started with Tali on OSCAR Pro
                     </div>
                   </div>
                 </div>
               </div>
             </a>
-          </div>
-        </div>
-      </div>
-      <div className="faq_wrapper__wSUqy Features_benefitsPart__MhSKH">
-        <div
-          className="Text_container__Bbxc2"
-          data-style="justify-content: center;">
-          <h2 className="Text_lightHeader__48nHm Text_titleH2__FZESN">FAQs</h2>
-        </div>
-        <div className="Divider_container__IZc2Z">
-          <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-        </div>
-        <div id="general" className="Features_category__u9Mm5">
-          <div
-            className="Text_container__Bbxc2"
-            data-style="justify-content: flex-start; text-align: start;">
-            <h2 className="Text_lightHeader__48nHm Text_titleH2__FZESN">
-              General
-            </h2>
-          </div>
-          <div className="Divider_container__IZc2Z">
-            <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-          </div>
-          <div
-            id="64091811"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                What is Tali?{" "}
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64091812"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                Who can use Tali?{" "}
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64121889"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                Who do I contact for more information or to set up a demo?
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64121902"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                How do I use it / How does it work?{" "}
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64121904"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                What sources does Tali use for Medical Search?
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64121905"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                Which forms will it open?{" "}
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64121906"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                What data do you store? Is it secure?
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-        </div>
-        <div
-          id="questions-specific-to-the-integration"
-          className="Features_category__u9Mm5">
-          <div
-            className="Text_container__Bbxc2"
-            data-style="justify-content: flex-start; text-align: start;">
-            <h2 className="Text_lightHeader__48nHm Text_titleH2__FZESN">
-              Questions Specific to the Integration
-            </h2>
-          </div>
-          <div className="Divider_container__IZc2Z">
-            <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-          </div>
-          <div
-            id="64121909"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                How do I turn it off (disable it)?{" "}
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64121924"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                How do I turn it on again (re-enable it)?
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64121925"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                Do I have to pay?{" "}
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64121926"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                Can I use my own account if I have one already?{" "}
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64121927"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                Can I use the Chrome extension instead of the integrated
-                version?{" "}
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64121928"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                What are the differences between the integration and the
-                extension?
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
-          </div>
-          <div
-            id="64121929"
-            role="button"
-            tabIndex={0}
-            className="faq_noOutline__MP6an">
-            <div
-              className="Text_container__Bbxc2 faq_question__eqFgy"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="faq_caret__e_Okk faq_caretClosed__QMVUW">
-                <img
-                  alt=""
-                  loading="lazy"
-                  width="10"
-                  height="17"
-                  decoding="async"
-                  data-nimg="1"
-                  src="/_next/static/media/caret_closed.4d5b8376.svg"
-                  data-style="color: transparent;"
-                />
-              </div>
-              <h4 className="Text_lightHeader__48nHm Text_subH1__B1CIW">
-                Why can’t I see the widget on every page in Oscar?
-              </h4>
-            </div>
-            <div className="Divider_container__IZc2Z">
-              <div className="Divider_divider__lT0m0 faq_faqDivider__kdNUQ"></div>
-            </div>
           </div>
         </div>
       </div>
