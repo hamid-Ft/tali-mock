@@ -1,4 +1,6 @@
 import Banner from "@/components/banner";
+import Benefits from "@/components/benefits";
+import Features from "@/components/features";
 import Header from "@/components/header";
 import MainOne from "@/components/mainOne";
 import { url } from "inspector";
@@ -14,6 +16,8 @@ const OscarPro = () => {
         <MainOne />
       </div>
       <Banner />
+      <Features />
+      <Benefits />
     </>
   );
 };

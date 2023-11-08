@@ -9,7 +9,7 @@ const MainOne = () => {
         <div className="HeroSection_titleBlock w-full grid justify-center items-center grid-cols-2 gap-16 max-w-screen-xl">
           <div className="HeroSection_titleTextWrapper ">
             <div className="Text_container HeroSection_titleText flex items-center justify-center max-w-3xl">
-              <h1 className="Text_darkHeader Text_titleH1  text-5xl min-w-[600px] font-noto font-normal leading-[65px]">
+              <h1 className="Text_darkHeader Text_titleH1  text-5xl min-w-[600px] font-noto font-normal leading-[65px] text-white">
                 A Voice-enabled AI Assistant tuned for Oscar Pro
               </h1>
             </div>

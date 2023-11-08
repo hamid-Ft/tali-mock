@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Noto_Serif } from "next/font/google";
 import "../styles/globals.css";
-import Menu from "@/components/header";
 
 const inter = Inter({
   subsets: ["latin"],
