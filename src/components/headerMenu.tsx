@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Header = () => {
+const HeaderMenu = () => {
   return (
     <div
       className="sticky top-0 z-50 flex flex-col justify-center items-center
@@ -120,4 +120,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderMenu;

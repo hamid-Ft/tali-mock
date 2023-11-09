@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FAQ from "./faq";
 
 const Benefits = () => {
   return (
@@ -28,7 +29,7 @@ const Benefits = () => {
               height={30}
               decoding="async"
               data-nimg="1"
-              src="https://tali.ai/features/chart-arrow-up.svg"
+              src="https://tali.aihttps://tali.ai/features/chart-arrow-up.svg"
             />
             <div className="BenefitsOfTaliSection_benefitTitle">Save Time</div>
             <div className="BenefitsOfTaliSection_benefitText">
@@ -46,7 +47,7 @@ const Benefits = () => {
               height="30"
               decoding="async"
               data-nimg="1"
-              src="https://tali.ai/features/user-stethoscope.svg"
+              src="https://tali.aihttps://tali.ai/features/user-stethoscope.svg"
             />
             <div className="BenefitsOfTaliSection_benefitTitle">
               Cost Saving
@@ -65,7 +66,7 @@ const Benefits = () => {
               height="30"
               decoding="async"
               data-nimg="1"
-              src="https://tali.ai/features/rocket.svg"
+              src="https://tali.aihttps://tali.ai/features/rocket.svg"
             />
             <div className="BenefitsOfTaliSection_benefitTitle">
               Fully Integrated
@@ -127,11 +128,11 @@ const Benefits = () => {
               <div className="WhereToStartSection_advancedBtn">
                 <div className="flex flex-row justify-center items-center cursor-pointer border-none text-white w-full rounded-full transition-colors ease-in-out duration-300 bg-[#261835] py-4">
                   <Image
+                    width={20}
+                    height={20}
                     src="https://tali.ai/features/play-circle-filled-white.svg"
                     alt="play icon"
                     className="mr-1"
-                    width={20}
-                    height={20}
                   />
                   <div className="Text_container">
                     <div className="Text_paragraph1">
@@ -144,6 +145,439 @@ const Benefits = () => {
           </div>
         </div>
       </div>
+      <div className="mb-60 pb-36 max-w-2xl flex justify-center items-center flex-col m-auto">
+        <div className="Text_container justify-center flex items-center max-w-3xl">
+          <h2 className="Text_lightHeader Text_titleH2">FAQs</h2>
+          <div className="Divider_container">
+            <div className="Divider_divider faq_faqDivider h-0 mt-6 w-full bottom-0 border-[#e9e6ec]"></div>
+          </div>
+        </div>
+        <FAQ />
+      </div>
+      {/*   <div className="faq_wrapper Features_benefitsPart">
+        <div className="Text_container" data-style="justify-content: center;">
+          <h2 className="Text_lightHeader Text_titleH2">FAQs</h2>
+        </div>
+        <div className="Divider_container">
+          <div className="Divider_divider faq_faqDivider"></div>
+        </div>
+        <div id="general" className="Features_category">
+          <div
+            className="Text_container"
+            data-style="justify-content: flex-start; text-align: start;">
+            <h2 className="Text_lightHeader Text_titleH2">General</h2>
+          </div>
+          <div className="Divider_container">
+            <div className="Divider_divider faq_faqDivider"></div>
+          </div>
+          <div
+            id="64091811"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">What is Tali? </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64091812"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                Who can use Tali?{" "}
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64121889"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                Who do I contact for more information or to set up a demo?
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64121902"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                How do I use it / How does it work?{" "}
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64121904"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                What sources does Tali use for Medical Search?
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64121905"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                Which forms will it open?{" "}
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64121906"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                What data do you store? Is it secure?
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="questions-specific-to-the-integration"
+          className="Features_category">
+          <div
+            className="Text_container"
+            data-style="justify-content: flex-start; text-align: start;">
+            <h2 className="Text_lightHeader Text_titleH2">
+              Questions Specific to the Integration
+            </h2>
+          </div>
+          <div className="Divider_container">
+            <div className="Divider_divider faq_faqDivider"></div>
+          </div>
+          <div
+            id="64121909"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                How do I turn it off (disable it)?{" "}
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64121924"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                How do I turn it on again (re-enable it)?
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64121925"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                Do I have to pay?{" "}
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64121926"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                Can I use my own account if I have one already?{" "}
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64121927"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                Can I use the Chrome extension instead of the integrated
+                version?{" "}
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64121928"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                What are the differences between the integration and the
+                extension?
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+          <div
+            id="64121929"
+            role="button"
+            tabIndex={0}
+            className="faq_noOutline">
+            <div
+              className="Text_container faq_question"
+              data-style="justify-content: flex-start; text-align: start;">
+              <div className="faq_caret faq_caretClosed">
+                <Image
+                  alt=""
+                  loading="lazy"
+                  width="10"
+                  height="17"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://tali.ai/_next/static/media/caret_closed.4d5b8376.svg"
+                  data-style="color: transparent;"
+                />
+              </div>
+              <h4 className="Text_lightHeader Text_subH1">
+                Why can’t I see the widget on every page in Oscar?
+              </h4>
+            </div>
+            <div className="Divider_container">
+              <div className="Divider_divider faq_faqDivider"></div>
+            </div>
+          </div>
+        </div>
+      </div> */}
     </div>
   );
 };

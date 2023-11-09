@@ -91,7 +91,6 @@ h2 {
     linear-gradient(279.45deg, #ffd317 7.13%, #ffb40d 92.87%);
   color: #000;
 }
-
 .dark-purple-btn,
 .tali-btn,
 .white-btn,
@@ -108,6 +107,11 @@ h2 {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.15s;
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+.dark-purple-btn {
+  background-image: linear-gradient(90deg, #261935, #261935),
+    linear-gradient(275.77deg, #ffb40d 4.98%, #a25ecb 26.4%);
+  color: #fff;
 }
 
 .dark-purple-btn:focus,
@@ -128,6 +132,11 @@ h2 {
     0px 10px 40px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.text-tali-btn {
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  font-weight: 700;
 }
 .yellow-btn:hover {
   --tw-shadow: 0px 10px 40px 0px rgba(255, 180, 13, 0.7),
@@ -180,4 +189,41 @@ h2 {
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+.white-btn {
+  background-image: linear-gradient(90deg, #fff, #fff),
+    linear-gradient(275.77deg, #ffb40d 4.98%, #a25ecb 26.4%);
+  color: black;
+}
+.shadow-tali-uninstall-form {
+  --tw-shadow: 0px 3px 5px #dae0f7, 6px 30px 20px rgba(210, 231, 255, 0.2);
+  --tw-shadow-colored: 0px 3px 5px var(--tw-shadow-color),
+    6px 30px 20px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.text-tali-purple {
+  --tw-text-opacity: 1;
+  color: rgb(126 79 135 / var(--tw-text-opacity));
+}
+.text-tali-black {
+  --tw-text-opacity: 1;
+  color: rgb(18 21 33 / var(--tw-text-opacity));
+}
+.text-tali-black-50 {
+  --tw-text-opacity: 1;
+  color: rgb(136 138 144 / var(--tw-text-opacity));
+}
+.bg-tali-lavendar-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 244 255 / var(--tw-bg-opacity));
+}
+.border-tali-black-25 {
+  --tw-border-opacity: 1;
+  border-color: rgb(196 196 199 / var(--tw-border-opacity));
+}
+
+.bg-tali-dark-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 25 53 / var(--tw-bg-opacity));
 }

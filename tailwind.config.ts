@@ -15,6 +15,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "dark-purple-btn":
+          "background-image: linear-gradient(90deg,#261935,#261935),linear-gradient(275.77deg,#ffb40d 4.98%,#a25ecb 26.4%);color: #fff;",
       },
     },
   },

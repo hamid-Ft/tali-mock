@@ -1,5 +1,8 @@
 import "../styles/globals.css";
 import { Inter, Noto_Serif } from "next/font/google";
+import HeaderMenu from "../components/headerMenu";
+import FooterSection from "../components/footerSection";
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -16,7 +19,9 @@ function MyApp({ Component, pageProps }) {
 
   return getLayout(
     <main className={`${inter.variable} ${noto.variable}`}>
+      <HeaderMenu />
       <Component {...pageProps} />
+      <FooterSection />
     </main>
   );
 }
