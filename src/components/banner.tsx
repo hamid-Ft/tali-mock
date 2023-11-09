@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className="FullWidthBanner_pageFullBanner mb-24 w-full bg-white py-14">
+    <div className="FullWidthBanner_pageFullBanner  w-full bg-white py-14 ">
       <div
         className="FullWidthBanner_bannerInner FullWidthBanner_bannerInnerLimitedWidth max-w-xl
        flex m-auto justify-center items-center">

@@ -3,7 +3,7 @@ import FAQ from "./faq";
 
 const Benefits = () => {
   return (
-    <div className="Features_pageContainer px-[12%]">
+    <div className="Features_pageContainer px-[12%] bg-[#f1f4ff] pt-4">
       <div className="Features_benefitsPart mb-60">
         <div className="flex flex-col items-center mb-6">
           <div className="Text_container flex justify-center items-center max-w-3xl mb-3">

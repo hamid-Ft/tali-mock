@@ -227,3 +227,107 @@ h2 {
   --tw-bg-opacity: 1;
   background-color: rgb(38 25 53 / var(--tw-bg-opacity));
 }
+.bg-tali-bg-glow-static {
+  background-image: url(https://tali.ai/backgrounds/bg_glow_static.svg);
+}
+.bg-tali-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 21 33 / var(--tw-bg-opacity));
+}
+.text-tali-h2-mobile {
+  font-size: 2.013rem;
+  line-height: 2.813rem;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+}
+.bg-tali-onyx {
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 56 66 / var(--tw-bg-opacity));
+}
+.Footer_linksContainer {
+  height: 316px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.38;
+}
+.Footer_footerFooter {
+  flex: 0.14;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+}
+.Footer_copyrightContainer,
+.Footer_wrapper {
+  width: 89%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: start;
+}
+.Footer_footerColumn {
+  display: grid;
+  grid-gap: 12px;
+}
+.Footer_title {
+  font-weight: 700;
+}
+.Text_darkParagraph {
+  color: #e7e7e7;
+}
+.Text_paragraph2 {
+  font-size: 14px;
+}
+.Footer_copyrightText {
+  grid-column: 1/5;
+}
+.Footer_iconWrapper {
+  background-color: #373737;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+/*  */
+.Navbar_header {
+  width: "100%";
+  position: sticky;
+  top: 0;
+  z-index: 100000;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Navbar_headerContainer {
+  width: 89%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+}
+.Navbar_menu {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 155%;
+  color: #fff;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 40px;
+  align-items: center;
+}
+.Navbar_flexDMobile,
+.Navbar_menuBar,
+.Navbar_menuContainer {
+  display: none;
+}
+.bg-tali-bg-glow-static {
+  background-image: url(https://tali.ai/backgrounds/bg_glow_static.svg);
+}
+.bg-tali-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 21 33 / var(--tw-bg-opacity));
+}
