@@ -10,7 +10,9 @@ export default function Install() {
         <title>Install</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <MainInstall />
+      <div>
+        <MainInstall />
+      </div>
       <div className="flex flex-col lg:flex-row font-inter gap-[1.313rem] lg:gap-0 p-10 lg:p-0 justify-center items-center w-full bg-white">
         <div className="text-tali-black not-italic font-semibold text-[1.3rem] leading-[1.688rem] tracking-[-0.02em] py-0 lg:py-14 w-[18.438rem] lg:w-[28.107rem]">
           <p>Need help getting Tali AI up and running?</p>

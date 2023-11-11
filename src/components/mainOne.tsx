@@ -157,7 +157,7 @@ const MainOne = () => {
                             title="Teaser: Medical Scribe, EHR Assistant, and Medical Search"
                             width="100%"
                             height="100%"
-                            src="htts://www.youtube.com/embed/e3fzdAMNmZk?autoplay=1&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Ftali.ai&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
+                            src="https://www.youtube.com/embed/e3fzdAMNmZk?autoplay=1&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Ftali.ai&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
                             id="widget2"></iframe>
                         </div>
                       </div>
