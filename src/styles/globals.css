@@ -331,3 +331,9 @@ h2 {
   --tw-bg-opacity: 1;
   background-color: rgb(18 21 33 / var(--tw-bg-opacity));
 }
+.Text_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 720px;
+}
