@@ -4,7 +4,7 @@ import Link from "next/link";
 const HeaderMenu = () => {
   return (
     <div
-      className="sticky top-0 z-50 flex flex-col justify-center items-center
+      className="bg-transparent sticky top-0 z-50 flex flex-col justify-center items-center
 ">
       <div className="w-[89%] flex justify-between items-center h-[140px]">
         <div className="box-border">
@@ -87,7 +87,7 @@ const HeaderMenu = () => {
             />
           </div>
           <a href="/api/auth/login" className="cursor-pointer">
-            <div className="Navbar_lastItem">Get Started</div>
+            <div className="Navbar_lastItem text-[#ffb40d]">Get Started</div>
           </a>
         </div>
         <div className="flex justify-center items-center lg:hidden">

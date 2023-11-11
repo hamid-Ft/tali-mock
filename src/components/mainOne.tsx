@@ -36,7 +36,11 @@ const MainOne = () => {
                       decoding="async"
                       data-nimg="1"
                       src="https://tali.ai/_next/static/media/white_microphone.877ea868.svg"
-                      style={{ color: "transparent" }}
+                      style={{
+                        color: "transparent",
+                        width: "auto",
+                        height: "auto",
+                      }}
                     />
                   </div>
                   <div
@@ -50,7 +54,11 @@ const MainOne = () => {
                       decoding="async"
                       data-nimg="1"
                       src="https://tali.ai/_next/static/media/black_microphone.2a235e0a.svg"
-                      style={{ color: "transparent" }}
+                      style={{
+                        color: "transparent",
+                        width: "auto",
+                        height: "auto",
+                      }}
                     />
                   </div>
                   <div className="FeatureCard_cardText">Medical Scribe</div>
@@ -67,7 +75,11 @@ const MainOne = () => {
                       decoding="async"
                       data-nimg="1"
                       src="https://tali.ai/_next/static/media/whiteEHRIcon.50b448c9.svg"
-                      style={{ color: "transparent" }}
+                      style={{
+                        color: "transparent",
+                        width: "auto",
+                        height: "auto",
+                      }}
                     />
                   </div>
                   <div className="FeatureCard_cardHover hidden group-hover:block">
@@ -79,7 +91,11 @@ const MainOne = () => {
                       decoding="async"
                       data-nimg="1"
                       src="https://tali.ai/_next/static/media/blackEHRIcon.6f9c1bfb.svg"
-                      style={{ color: "transparent" }}
+                      style={{
+                        color: "transparent",
+                        width: "auto",
+                        height: "auto",
+                      }}
                     />
                   </div>
                   <div className="FeatureCard_cardText">EHR Assistant</div>
@@ -96,7 +112,11 @@ const MainOne = () => {
                       decoding="async"
                       data-nimg="1"
                       src="https://tali.ai/_next/static/media/glass.e9fe145e.svg"
-                      style={{ color: "transparent" }}
+                      style={{
+                        color: "transparent",
+                        width: "auto",
+                        height: "auto",
+                      }}
                     />
                   </div>
                   <div className="FeatureCard_cardHover hidden group-hover:block">
@@ -108,7 +128,11 @@ const MainOne = () => {
                       decoding="async"
                       data-nimg="1"
                       src="https://tali.ai/_next/static/media/glass_black.f35c6e65.svg"
-                      style={{ color: "transparent" }}
+                      style={{
+                        color: "transparent",
+                        width: "auto",
+                        height: "auto",
+                      }}
                     />
                   </div>
                   <div className="FeatureCard_cardText font-inter text-base font-[400]]">
@@ -133,7 +157,7 @@ const MainOne = () => {
                             title="Teaser: Medical Scribe, EHR Assistant, and Medical Search"
                             width="100%"
                             height="100%"
-                            src="htps://www.youtube.com/embed/e3fzdAMNmZk?autoplay=1&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Ftali.ai&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
+                            src="htts://www.youtube.com/embed/e3fzdAMNmZk?autoplay=1&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Ftali.ai&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
                             id="widget2"></iframe>
                         </div>
                       </div>
