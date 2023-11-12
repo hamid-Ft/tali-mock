@@ -60,31 +60,6 @@ h2 {
   line-height: 140%;
   margin-bottom: 1rem;
 }
-.FeaturesContentSection_featureContentSection
-  .FeaturesContentSection_sectionSubtitle {
-  font-size: 1rem;
-  line-height: 150%;
-  max-width: 640px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 32px;
-}
-.FeaturesContentSection_featureContentSection
-  .FeaturesContentSection_sectionItems {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  gap: 56px;
-  text-align: left;
-  background-color: #fff;
-  box-shadow: 0 3px 5px #dae0f7, 6px 30px 20px rgba(210, 231, 255, 0.2);
-  border-radius: 8px;
-  padding: 56px 80px;
-  max-width: 1250px;
-  margin: auto;
-}
 
 .yellow-btn {
   background-image: linear-gradient(279.45deg, #ffd317 7.13%, #ffb40d 92.87%),
@@ -145,28 +120,6 @@ h2 {
     0px 1px 3px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-.BenefitsOfTaliSection_benefitCard {
-  background: #fff;
-  box-shadow: 0 3px 5px #dae0f7, 6px 30px 20px rgba(210, 231, 255, 0.2);
-  border-radius: 16px;
-  padding: 40px;
-  flex: 1;
-}
-.BenefitsOfTaliSection_benefitCard .BenefitsOfTaliSection_benefitTitle {
-  font-weight: 600;
-  font-size: 21px;
-  line-height: 25px;
-  text-transform: capitalize;
-  color: #000;
-  margin: 8px 0 32px;
-}
-
-.BenefitsOfTaliSection_benefitCard .BenefitsOfTaliSection_benefitText {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 155%;
-  color: #000;
 }
 .WhereToStartSection_image {
   flex: 1;
@@ -243,34 +196,6 @@ h2 {
 .bg-tali-onyx {
   --tw-bg-opacity: 1;
   background-color: rgb(54 56 66 / var(--tw-bg-opacity));
-}
-.Footer_linksContainer {
-  height: 316px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 0.38;
-}
-.Footer_footerFooter {
-  flex: 0.14;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 110px;
-}
-.Footer_copyrightContainer,
-.Footer_wrapper {
-  width: 89%;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-items: start;
-}
-.Footer_footerColumn {
-  display: grid;
-  grid-gap: 12px;
-}
-.Footer_title {
-  font-weight: 700;
 }
 .Text_darkParagraph {
   color: #e7e7e7;

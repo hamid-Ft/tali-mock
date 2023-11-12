@@ -3,19 +3,17 @@ import Image from "next/image";
 const MainOne = () => {
   return (
     <div>
-      <div
-        id="title-container"
-        className="HeroSection_titleContainer flex justify-center items-center pb-28 pt-[4.5rem]">
-        <div className="HeroSection_titleBlock w-full grid justify-center items-center grid-cols-2 gap-16 max-w-screen-xl">
-          <div className="HeroSection_titleTextWrapper ">
-            <div className="Text_container HeroSection_titleText flex items-center justify-center max-w-3xl">
-              <h1 className="Text_darkHeader Text_titleH1  text-5xl min-w-[600px] font-noto font-normal leading-[65px] text-white">
+      <div className="flex justify-center items-center pb-28 pt-[4.5rem]">
+        <div className="w-full grid justify-center items-center grid-cols-2 gap-16 max-w-screen-xl">
+          <div>
+            <div className="flex items-center justify-center max-w-2xl">
+              <h1 className="text-5xl min-w-[600px] font-noto font-normal leading-[65px] text-white">
                 A Voice-enabled AI Assistant tuned for Oscar Pro
               </h1>
             </div>
-            <div className="HeroSection_titleBodyContainer pt-3 text-white">
-              <div className="Text_container flex justify-center max-w-3xl">
-                <div className="Text_darkParagraph Text_paragraph1 text-[#e7e7e7] font-normal leading-6">
+            <div className="pt-3 text-white">
+              <div className="flex justify-center items-center max-w-2xl">
+                <div className="text-[#e7e7e7] font-normal leading-6">
                   Unleash the power of Tali, the Medical Scribe, Medical Search,
                   and EHR Assistant designed to reduce physicians’
                   administrative tasks. Tali seamlessly integrates with Oscar
@@ -24,10 +22,10 @@ const MainOne = () => {
               </div>
               <br />
             </div>
-            <div className="HeroSection_featureCardContainer grid-flow-col grid pt-4 gap-3">
+            <div className="grid-flow-col grid pt-4 gap-3">
               <a href="#ai-scribe">
-                <div className="FeatureCard_featureCard group cursor-pointer bg-[#ffffff1a] flex gap-3 justify-center items-center p-4 rounded-lg text-white max-h-14 hover:text-[#121521] hover:bg-grad-yellow">
-                  <div className="FeatureCard_cardDefault group-hover:hidden">
+                <div className="group cursor-pointer bg-[#ffffff1a] flex gap-3 justify-center items-center p-4 rounded-lg text-white max-h-14 hover:text-[#121521] hover:bg-grad-yellow">
+                  <div className=" group-hover:hidden">
                     <Image
                       alt="Medical Scribe"
                       loading="lazy"
@@ -44,7 +42,7 @@ const MainOne = () => {
                     />
                   </div>
                   <div
-                    className="FeatureCard_cardHover hidden group-hover:block
+                    className="hidden group-hover:block
               ">
                     <Image
                       alt="Medical Scribe"
@@ -61,12 +59,12 @@ const MainOne = () => {
                       }}
                     />
                   </div>
-                  <div className="FeatureCard_cardText">Medical Scribe</div>
+                  <div>Medical Scribe</div>
                 </div>
               </a>
               <a href="#ehr-assistant">
-                <div className="FeatureCard_featureCard group cursor-pointer bg-[#ffffff1a] flex gap-3 justify-center items-center p-4 rounded-lg text-white max-h-14 hover:text-[#121521] hover:bg-grad-yellow">
-                  <div className="FeatureCard_cardDefault group-hover:hidden">
+                <div className="group cursor-pointer bg-[#ffffff1a] flex gap-3 justify-center items-center p-4 rounded-lg text-white max-h-14 hover:text-[#121521] hover:bg-grad-yellow">
+                  <div className="group-hover:hidden">
                     <Image
                       alt="EHR Assistant"
                       loading="lazy"
@@ -82,7 +80,7 @@ const MainOne = () => {
                       }}
                     />
                   </div>
-                  <div className="FeatureCard_cardHover hidden group-hover:block">
+                  <div className="hidden group-hover:block">
                     <Image
                       alt="EHR Assistant"
                       loading="lazy"
@@ -98,12 +96,12 @@ const MainOne = () => {
                       }}
                     />
                   </div>
-                  <div className="FeatureCard_cardText">EHR Assistant</div>
+                  <div>EHR Assistant</div>
                 </div>
               </a>
               <a href="#medical-search">
-                <div className="FeatureCard_featureCard group cursor-pointer bg-[#ffffff1a] flex gap-3 justify-center items-center p-4 rounded-lg text-white max-h-14 hover:text-[#121521] hover:bg-grad-yellow">
-                  <div className="FeatureCard_cardDefault group-hover:hidden">
+                <div className="group cursor-pointer bg-[#ffffff1a] flex gap-3 justify-center items-center p-4 rounded-lg text-white max-h-14 hover:text-[#121521] hover:bg-grad-yellow">
+                  <div className="group-hover:hidden">
                     <Image
                       alt="Medical Search"
                       loading="lazy"
@@ -119,7 +117,7 @@ const MainOne = () => {
                       }}
                     />
                   </div>
-                  <div className="FeatureCard_cardHover hidden group-hover:block">
+                  <div className="hidden group-hover:block">
                     <Image
                       alt="Medical Search"
                       loading="lazy"
@@ -135,17 +133,17 @@ const MainOne = () => {
                       }}
                     />
                   </div>
-                  <div className="FeatureCard_cardText font-inter text-base font-[400]]">
+                  <div className=" font-inter text-base font-[400]">
                     Medical Search
                   </div>
                 </div>
               </a>
             </div>
           </div>
-          <div className="HeroSection_videoWrapper w-full h-full">
-            <div className="VideoPlaylist_playListContainer VideoPlaylist_withWithoutItem flex h-full w-full">
-              <div className="VideoPlaylist_videoPlayer VideoPlaylist_withWithoutItem VideoPlaylist_videPlayerBorderRadius w-full h-full bg-white rounded-2xl overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.15)]">
-                <div className="VideoPlaylist_wideVideoContainer h-full">
+          <div className=" w-full h-full">
+            <div className="flex h-full w-full">
+              <div className="w-full h-full bg-white rounded-2xl overflow-hidden shadow-[0_0_10px_rgba(0,0,0,0.15)]">
+                <div className=" h-full">
                   <div className="h-full">
                     <div className="h-full">
                       <div style={{ width: "100%", height: "100%" }}>

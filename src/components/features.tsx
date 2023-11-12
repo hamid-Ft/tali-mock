@@ -1,26 +1,23 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const Features = () => {
   return (
-    <div className="Features_pageContainer Features_featuresContentsContainer  px-[12%] bg-[#f1f4ff] pt-24">
-      <section className="FeaturesContentSection_featureContentSection text-center relative w-full">
-        <div
-          className="FeaturesContentSection_scrollAnchor absolute -top-24 w-0 h-0"
-          id="ai-scribe"></div>
+    <div className="px-[12%] bg-[#f1f4ff] pt-24">
+      <section className=" text-center relative w-full">
+        <div className=" absolute -top-24 w-0 h-0" id="ai-scribe"></div>
         <h2 className="font-noto">Medical Scribe</h2>
-        <div className="FeaturesContentSection_sectionSubtitle ">
+        <div className="text-base leading-[150%] max-w-2xl mx-auto mb-8">
           Tali utilizes speech recognition and natural language processing to
           convert speech to text in electronic medical records. Tali records
           notes directly into your EMR. This mode of documentation is 3x faster
           than typing.
         </div>
-        <div className="FeaturesContentSection_sectionBody relative mb-8">
+        <div className=" relative mb-8">
           <object
             data="/patient.svg"
             className="m-auto max-w-full block align-middle"></object>
 
-          <div className="FeaturesContentSection_sectionItems">
+          <div className="absolute left-0 bottom-0 right-0 flex gap-14 text-left bg-white shadow-[6px_30px_20px_rgba(210, 231, 255, 0.2)] shadow-[0_3px_5px_#dae0f7] rounded-lg py-14 px-20 max-w-[1250px] m-auto">
             <div className="flex-grow">
               <Image
                 className="mb-4"
@@ -63,7 +60,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="FeaturesContentSection_sectionFooter max-w-2xl mb-11 leading-[150%] m-auto">
+        <div className=" max-w-2xl mb-11 leading-[150%] m-auto">
           Tali’s voice-enabled interface is intuitive: click the microphone
           button to start dictation and again to pause. Trained with hundreds of
           hours of medical terminologies delivered in different voices and
@@ -77,22 +74,20 @@ const Features = () => {
           Watch how it works
         </a>
       </section>
-      <section className="FeaturesContentSection_featureContentSection text-center relative w-full">
-        <div
-          className="FeaturesContentSection_scrollAnchor absolute -top-24 h-0 w-0"
-          id="ehr-assistant"></div>
+      <section className=" text-center relative w-full">
+        <div className=" absolute -top-24 h-0 w-0" id="ehr-assistant"></div>
         <h2 className="font-noto">EHR Assistant</h2>
-        <div className="FeaturesContentSection_sectionSubtitle">
+        <div className="text-base leading-[150%] max-w-2xl mx-auto mb-8">
           The EHR Assistant feature is designed to help physicians navigate and
           manage patient records more efficiently. It can perform a variety of
           tasks. By integrating Tali&apos;s, physicians can reduce their
           administrative burdens.
         </div>
-        <div className="FeaturesContentSection_sectionBody relative mb-8">
+        <div className=" relative mb-8">
           <object data="/patientEHR.svg" data-style="margin: auto;">
             Patient note
           </object>
-          <div className="FeaturesContentSection_sectionItems">
+          <div className="absolute left-0 bottom-0 right-0 flex gap-14 text-left bg-white shadow-[6px_30px_20px_rgba(210, 231, 255, 0.2)] shadow-[0_3px_5px_#dae0f7] rounded-lg py-14 px-20 max-w-[1250px] m-auto">
             <div>
               <Image
                 className="mb-4"
@@ -132,7 +127,7 @@ const Features = () => {
           </div>
         </div>
         <div
-          className="FeaturesContentSection_sectionFooter max-w-screen-sm leading-[150%] m-auto
+          className="  max-w-2xl mb-11 leading-[150%] m-auto
         ">
           A voice-enabled virtual assistant can be especially beneficial to
           healthcare practitioners, as it allows them to complete tasks
@@ -147,24 +142,22 @@ const Features = () => {
           Watch how it works
         </a>
       </section>
-      <section className="FeaturesContentSection_featureContentSection text-center relative w-full">
-        <div
-          className="FeaturesContentSection_scrollAnchor absolute -top-24 h-0 w-0"
-          id="medical-search"></div>
+      <section className=" text-center relative w-full">
+        <div className=" absolute -top-24 h-0 w-0" id="medical-search"></div>
         <h2 className="font-noto">Medical Search</h2>
-        <div className="FeaturesContentSection_sectionSubtitle">
+        <div className="text-base leading-[150%] max-w-2xl mx-auto mb-8">
           Ask Tali questions, including drug and dosage questions, and feel
           assured that the answers come from trustworthy, evidence-based
           sources.
         </div>
-        <div className="FeaturesContentSection_sectionBody relative mb-8">
+        <div className=" relative mb-8">
           <object
             data="/medicalSearch.svg"
             data-style="max-width: min(700px, 100%); margin: auto;"
             className="max-w-[min(700px,100%)] m-auto">
             Patient note
           </object>
-          <div className="FeaturesContentSection_sectionItems">
+          <div className="absolute left-0 bottom-0 right-0 flex gap-14 text-left bg-white shadow-[6px_30px_20px_rgba(210, 231, 255, 0.2)] shadow-[0_3px_5px_#dae0f7] rounded-lg py-14 px-20 max-w-[1250px] m-auto">
             <div className="flex-grow">
               <Image
                 className="mb-4"
@@ -192,7 +185,7 @@ const Features = () => {
               </div>
             </div>
             <div className="flex-grow">
-              <div className="Features_docProviders h-full flex flex-col justify-center items-center gap-6">
+              <div className="h-full flex flex-col justify-center items-center gap-6">
                 <div>
                   <Image
                     className="w-full"
@@ -202,7 +195,7 @@ const Features = () => {
                     alt="Choosing Wisely"
                   />
                 </div>
-                <div className="Features_bottomImage flex gap-9 items-end">
+                <div className="flex gap-9 items-end">
                   <div>
                     <Image
                       className="w-full"
@@ -226,7 +219,7 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="FeaturesContentSection_sectionFooter">
+        <div className="  max-w-2xl mb-11 leading-[150%] m-auto">
           When asked a question or to search for keywords, Tali returns with a
           screenshot of the relevant answer along with a link directly to the
           pertinent section with the option to show two alternative answers as

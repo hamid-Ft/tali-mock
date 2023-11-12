@@ -34,7 +34,7 @@ const NavBar: React.FC = () => {
                 height="28"
                 decoding="async"
                 data-nimg="1"
-                className="Navbar_clickable text-transparent"
+                className="text-transparent"
                 src="https://tali.ai/_next/static/media/tali-logo.8be08cd4.svg"
               />
             </div>
@@ -43,7 +43,7 @@ const NavBar: React.FC = () => {
         <div className="text-[14px] font-semibold text-white items-center grid grid-flow-col gap-10 max-lg:hidden">
           <a href="#" className="group relative">
             <div className=" flex items-center flex-col justify-center font-inter">
-              Product<div className="Navbar_hide"></div>
+              Product
             </div>
             <div
               className="absolute inset-x-0 h-1 bg-yellow-500  rounded duration-300  mt-1
@@ -52,7 +52,7 @@ const NavBar: React.FC = () => {
           </a>
           <a href="#" className="group relative">
             <div className=" flex items-center flex-col justify-center">
-              Pricing<div className="Navbar_hide"></div>
+              Pricing
             </div>
             <div
               className="absolute inset-x-0 h-1 bg-yellow-500  rounded duration-200 mt-1
@@ -61,7 +61,7 @@ const NavBar: React.FC = () => {
           </a>
           <a href="#" className="group relative">
             <div className=" flex items-center flex-col justify-center">
-              FAQ<div className="Navbar_hide"></div>
+              FAQ
             </div>
             <div
               className="absolute inset-x-0 h-1 bg-yellow-500  rounded duration-200 mt-1
@@ -70,7 +70,7 @@ const NavBar: React.FC = () => {
           </a>
           <Link href="/install" className="group relative">
             <div className=" flex items-center flex-col justify-center">
-              Install<div className="Navbar_hide"></div>
+              Install
             </div>
             <div
               className="absolute inset-x-0 h-1 bg-yellow-500  rounded duration-200 mt-1
@@ -79,7 +79,7 @@ const NavBar: React.FC = () => {
           </Link>
           <a href="#" className="group relative">
             <div className=" flex items-center flex-col justify-center">
-              Resources<div className="Navbar_hide"></div>
+              Resources
             </div>
             <div
               className="absolute inset-x-0 h-1 bg-yellow-500  rounded duration-200 mt-1
@@ -145,7 +145,7 @@ const NavBar: React.FC = () => {
                   height="28"
                   decoding="async"
                   data-nimg="1"
-                  className="Navbar_clickable text-transparent"
+                  className="text-transparent"
                   src="https://tali.ai/_next/static/media/tali-logo.8be08cd4.svg"
                 />
               </div>
@@ -154,7 +154,7 @@ const NavBar: React.FC = () => {
           <div className="text-[14px] font-semibold text-white items-center grid grid-flow-col gap-10 max-lg:hidden">
             <a href="#" className="group relative">
               <div className=" flex items-center flex-col justify-center font-inter">
-                Product<div className="Navbar_hide"></div>
+                Product
               </div>
               <div
                 className="absolute inset-x-0 h-1 bg-yellow-500  rounded duration-300  mt-1
@@ -163,7 +163,7 @@ const NavBar: React.FC = () => {
             </a>
             <a href="#" className="group relative">
               <div className=" flex items-center flex-col justify-center">
-                Pricing<div className="Navbar_hide"></div>
+                Pricing
               </div>
               <div
                 className="absolute inset-x-0 h-1 bg-yellow-500  rounded duration-200 mt-1
@@ -172,7 +172,7 @@ const NavBar: React.FC = () => {
             </a>
             <a href="#" className="group relative">
               <div className=" flex items-center flex-col justify-center">
-                FAQ<div className="Navbar_hide"></div>
+                FAQ
               </div>
               <div
                 className="absolute inset-x-0 h-1 bg-yellow-500  rounded duration-200 mt-1
@@ -181,7 +181,7 @@ const NavBar: React.FC = () => {
             </a>
             <Link href="/install" className="group relative">
               <div className=" flex items-center flex-col justify-center">
-                Install<div className="Navbar_hide"></div>
+                Install
               </div>
               <div
                 className="absolute inset-x-0 h-1 bg-yellow-500  rounded duration-200 mt-1
@@ -190,7 +190,7 @@ const NavBar: React.FC = () => {
             </Link>
             <a href="#" className="group relative">
               <div className=" flex items-center flex-col justify-center">
-                Resources<div className="Navbar_hide"></div>
+                Resources
               </div>
               <div
                 className="absolute inset-x-0 h-1 bg-yellow-500  rounded duration-200 mt-1

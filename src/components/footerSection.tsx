@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const FooterSection = () => {
   return (
-    <div className="bg-tali-black bg-tali-bg-glow-static bg-center bg-no-repeat">
+    <footer className="bg-tali-black bg-tali-bg-glow-static bg-center bg-no-repeat">
       <div className="flex flex-col pt-[3.125rem] pb-[4.375rem] lg:py-[4.5rem] px-8 gap-[1.313rem] lg:gap-6 justify-center items-center">
         <div className="text-white text-tali-h2-mobile not-italic font-noto text-left lg:text-center w-[19.438rem] lg:w-auto">
           <p>Looking to Reduce Time Spent On</p>
@@ -17,8 +17,8 @@ const FooterSection = () => {
         </a>
       </div>
       <div className="w-full h-[2px] bg-tali-onyx"></div>
-      <div className="Footer_linksContainer">
-        <div className="Footer_wrapper">
+      <div className="h-[316px] flex items-center justify-center flex-grow-[0.38]">
+        <div className="w-[89%] grid grid-cols-5 justify-items-start ">
           <div className="Footer_logo">
             <Image
               alt="Tali-logo"
@@ -101,21 +101,19 @@ const FooterSection = () => {
         </div>
       </div>
       <div className="w-full h-[2px] bg-tali-onyx"></div>
-      <div className="Footer_footerFooter">
-        <div className="Footer_copyrightContainer">
+      <div className="flex-grow-[0.14] flex items-center justify-center h-[110px]">
+        <div className="w-[89%] grid grid-cols-5 justify-items-start">
           <div className="Footer_copyrightText">
             <div className="justify-start text-start max-w-2xl">
-              <div className="Text_darkParagraph Text_copyright">Tali AI</div>
+              <div className="Text_darkParagraph">Tali AI</div>
             </div>
             <div className="justify-start text-start max-w-2xl">
-              <div className="Text_darkParagraph Text_copyright">
-                Copyright © 2023
-              </div>
+              <div className="Text_darkParagraph">Copyright © 2023</div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

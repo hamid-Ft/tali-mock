@@ -3,15 +3,13 @@ import FAQ from "./faq";
 
 const Benefits = () => {
   return (
-    <div className="Features_pageContainer px-[12%] bg-[#f1f4ff] pt-4">
-      <div className="Features_benefitsPart mb-60">
+    <div className="px-[12%] bg-[#f1f4ff] pt-4">
+      <div className=" mb-60">
         <div className="flex flex-col items-center mb-6">
-          <div className="Text_container flex justify-center items-center max-w-3xl mb-3">
-            <h2 className="Text_lightHeader Text_titleH2 font-noto">
-              Benefits of Tali
-            </h2>
+          <div className="flex justify-center items-center max-w-3xl mb-3">
+            <h2 className="font-noto">Benefits of Tali</h2>
           </div>
-          <div className="Text_container text-center flex items-center justify-center max-w-3xl mb-16">
+          <div className="text-center flex items-center justify-center max-w-3xl mb-16">
             <div className="font-inter text-[#373737] font-normal leading-6 text-[16px]">
               We have worked hard on shaping our identity as a company and we
               have come up with the following values and culture. If they
@@ -20,8 +18,8 @@ const Benefits = () => {
             </div>
           </div>
         </div>
-        <div className="BenefitsOfTaliSection_benefitsCardContainer flex gap-8">
-          <div className="BenefitsOfTaliSection_benefitCard">
+        <div className="flex gap-8">
+          <div className="rounded-2xl p-10 flex-grow bg-white shadow-[0_3px_5px_#dae0f7] shadow-[6px_30px_20px_rgba(210, 231, 255, 0.2)]">
             <Image
               alt="feature intro item icon"
               loading="lazy"
@@ -31,15 +29,17 @@ const Benefits = () => {
               data-nimg="1"
               src="https://tali.ai/features/chart-arrow-up.svg"
             />
-            <div className="BenefitsOfTaliSection_benefitTitle">Save Time</div>
-            <div className="BenefitsOfTaliSection_benefitText">
+            <div className=" font-semibold text-xl leading-6 capitalize text-black mt-2 mb-8">
+              Save Time
+            </div>
+            <div className=" font-normal text-sm leading-[155%] text-black">
               designed to save time for healthcare professionals by streamlining
               workflows. Its real-time speech-to-text transcription allows
               physicians to dictate information, eliminating the need for manual
               data entry.
             </div>
           </div>
-          <div className="BenefitsOfTaliSection_benefitCard">
+          <div className="rounded-2xl p-10 flex-grow bg-white shadow-[0_3px_5px_#dae0f7] shadow-[6px_30px_20px_rgba(210, 231, 255, 0.2)]">
             <Image
               alt="feature intro item icon"
               loading="lazy"
@@ -49,16 +49,16 @@ const Benefits = () => {
               data-nimg="1"
               src="https://tali.ai/features/user-stethoscope.svg"
             />
-            <div className="BenefitsOfTaliSection_benefitTitle">
+            <div className=" font-semibold text-xl leading-6 capitalize text-black mt-2 mb-8">
               Cost Saving
             </div>
-            <div className="BenefitsOfTaliSection_benefitText">
+            <div className=" font-normal text-sm leading-[155%] text-black">
               By reducing the need for manual data entry and other
               administrative tasks, Tali can help to lower costs for healthcare
               organizations and reduce staff workload.
             </div>
           </div>
-          <div className="BenefitsOfTaliSection_benefitCard">
+          <div className="rounded-2xl p-10 flex-grow bg-white shadow-[0_3px_5px_#dae0f7] shadow-[6px_30px_20px_rgba(210, 231, 255, 0.2)]">
             <Image
               alt="feature intro item icon"
               loading="lazy"
@@ -68,10 +68,10 @@ const Benefits = () => {
               data-nimg="1"
               src="https://tali.ai/features/rocket.svg"
             />
-            <div className="BenefitsOfTaliSection_benefitTitle">
+            <div className=" font-semibold text-xl leading-6 capitalize text-black mt-2 mb-8">
               Fully Integrated
             </div>
-            <div className="BenefitsOfTaliSection_benefitText">
+            <div className=" font-normal text-sm leading-[155%] text-black">
               This integration allows physicians to access patient information,
               schedule appointments, and order lab tests directly from within
               the Oscar Pro EMR system, eliminating the need to switch between
@@ -80,13 +80,11 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-      <div className="Features_securityPart pb-60 max-w-2xl text-center m-auto">
-        <div className="Text_container flex justify-center items-center max-w-3xl mb-4">
-          <h2 className="Text_lightHeader Text_titleH2 font-noto">
-            Dedicated to Security and Privacy
-          </h2>
+      <div className="pb-60 max-w-2xl text-center m-auto">
+        <div className="flex justify-center items-center max-w-3xl mb-4">
+          <h2 className="font-noto">Dedicated to Security and Privacy</h2>
         </div>
-        <div className="Text_container justify-center">
+        <div className="flex justify-center items-center max-w-3xl ">
           <div className="font-inter text-[#373737] font-normal leading-6 text-[16px]">
             Tali AI is compliant in both the Personal Information Protection Act
             (PIPA) and the Personal Information Protection and Electronic
@@ -97,7 +95,7 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto WhereToStartSection_wrapper flex items-center gap-8 Features_whereToStartPart">
+      <div className="container mx-auto  flex items-center gap-8 ">
         <Image
           width={574}
           height={503}
@@ -105,13 +103,11 @@ const Benefits = () => {
           src="/where-to-start.png"
           alt="Tali integration with OSCAR Pro"
         />
-        <div className="WhereToStartSection_content flex flex-grow flex-col items-start">
-          <div className="Text_container justify-start mb-6">
-            <h2 className="Text_lightHeader Text_titleH2 font-noto">
-              Where to start
-            </h2>
+        <div className=" flex flex-grow flex-col items-start">
+          <div className="flex items-center max-w-3xl  justify-start mb-6">
+            <h2 className="font-noto">Where to start</h2>
           </div>
-          <div className="Text_container max-w-3xl justify-center">
+          <div className="flex justify-center items-center max-w-3xl ">
             <div className="font-inter text-[#373737] font-normal leading-6 text-[16px]">
               To start using Tali, you will be prompted to sign up or sign in
               after clicking on the widget on the right of your Oscar Pro
@@ -134,7 +130,7 @@ const Benefits = () => {
                     alt="play icon"
                     className="mr-1"
                   />
-                  <div className="Text_container">
+                  <div className="flex justify-center items-center max-w-3xl mb-3">
                     <div className="Text_paragraph1">
                       Getting started with Tali on OSCAR Pro
                     </div>
@@ -145,10 +141,10 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-      <div className="faq_wrapper Features_benefitsPart mb-60 pt-5 pb-36 w-[720px] m-auto">
-        <div className="Text_container flex justify-center text-center items-center max-w-3xl">
+      <div className=" mb-60 pt-5 pb-36 w-[720px] m-auto">
+        <div className="flex justify-center text-center items-center max-w-3xl">
           <h2
-            className="Text_lightHeader Text_titleH2 text-center pt-[240px]
+            className="text-center pt-[240px]
            text-black font-normal leading-[49px] text-[36px] font-noto">
             FAQs
           </h2>
@@ -157,8 +153,8 @@ const Benefits = () => {
           <div className="w-full mt-6 h-0 border border-[#e9e6ec]"></div>
         </div>
         <div id="general" className="mt-11">
-          <div className="Text_container justify-start text-start">
-            <h2 className="Text_lightHeader Text_titleH2 text-black font-normal leading-[49px] text-[36px] font-noto">
+          <div className="justify-start text-start flex max-w-3xl mb-3">
+            <h2 className="text-black font-normal leading-[49px] text-[36px] font-noto">
               General
             </h2>
           </div>
@@ -172,7 +168,7 @@ const Benefits = () => {
                 <div className="font-inter text-[#373737] font-normal leading-6 text-[16px]">
                   Tali AI is a voice-enabled artificial intelligence tool that
                   virtually assists physicians with documentation and clerical
-                  tasks.{" "}
+                  tasks.
                 </div>
               </div>
             )}
@@ -194,7 +190,7 @@ const Benefits = () => {
               <div className=" pt-2 pl-6 justify-start text-start">
                 <div className="font-inter text-[#373737] font-normal leading-6 text-[16px]">
                   <p>
-                    Send your questions and demo requests to email to{" "}
+                    Send your questions and demo requests to email to
                     <a className="text-black" href="mailto:contact@tali.ai">
                       <u>contact@tali.ai</u>
                     </a>
@@ -243,7 +239,7 @@ const Benefits = () => {
                   <p>
                     <br />
                     If you have any other questions, or are having trouble with
-                    a feature, just reach out to{" "}
+                    a feature, just reach out to
                     <a className="text-black" href="mailto:help@tali.ai">
                       <u>help@tali.ai</u>
                     </a>
@@ -284,7 +280,7 @@ const Benefits = () => {
                 <div className="font-inter text-[#373737] font-normal leading-6 text-[16px]">
                   <p>
                     Tali does not store PHI. Tali does store data in Canada. All
-                    data is encrypted at rest and in flight.{" "}
+                    data is encrypted at rest and in flight.
                   </p>
                   <p>
                     Tali stores audio files for one month. A subset of these are
@@ -292,22 +288,22 @@ const Benefits = () => {
                     product improvements.&nbsp;
                   </p>
                   <p>
-                    For any more detailed questions, our{" "}
+                    For any more detailed questions, our
                     <a
                       className="text-black"
                       href="https://tali.ai/terms-of-use">
                       <u>Terms of Service</u>
-                    </a>{" "}
-                    and{" "}
+                    </a>
+                    and
                     <a
                       className="text-black"
                       href="https://tali.ai/privacy-policy">
                       <u>Privacy Policy</u>
-                    </a>{" "}
-                    may be of interest, or you can reach out to{" "}
+                    </a>
+                    may be of interest, or you can reach out to
                     <a className="text-black" href="mailto:help@tali.ai">
                       <u>help@tali.ai</u>
-                    </a>{" "}
+                    </a>
                     and we’ll resolve your concerns.
                   </p>
                 </div>
@@ -316,10 +312,8 @@ const Benefits = () => {
           />
         </div>
         <div id="questions-specific-to-the-integration" className="mt-11">
-          <div className="Text_container justify-start text-start">
-            <h2 className="Text_lightHeader Text_titleH2">
-              Questions Specific to the Integration
-            </h2>
+          <div className="justify-start text-start flex items-center max-w-3xl">
+            <h2>Questions Specific to the Integration</h2>
           </div>
           <div className="flex justify-center items-center w-full">
             <div className="w-full mt-6 h-0 border border-[#e9e6ec]"></div>
@@ -365,7 +359,7 @@ const Benefits = () => {
               <div className=" pt-2 pl-6 justify-start text-start">
                 <div className="font-inter text-[#373737] font-normal leading-6 text-[16px]">
                   <p>
-                    You can try it out for free.&nbsp; We have different{" "}
+                    You can try it out for free.&nbsp; We have different
                     <a className="text-black" href="https://tali.ai/pricing">
                       <u>pricing levels</u>
                     </a>
@@ -381,7 +375,7 @@ const Benefits = () => {
             renderAnswer={() => (
               <div className=" pt-2 pl-6 justify-start text-start">
                 <div className="font-inter text-[#373737] font-normal leading-6 text-[16px]">
-                  Yes, absolutely.{" "}
+                  Yes, absolutely.
                 </div>
               </div>
             )}
@@ -398,7 +392,7 @@ const Benefits = () => {
                   <ul className="list-disc pl-5">
                     <li>
                       <p>
-                        Go to the{" "}
+                        Go to the
                         <a
                           className="text-black"
                           href="https://chrome.google.com/webstore/detail/tali-ai/cmfdaldondfeihfgblhhjpaoddmmopgl">
