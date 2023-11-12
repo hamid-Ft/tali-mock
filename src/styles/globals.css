@@ -337,3 +337,16 @@ h2 {
   align-items: center;
   max-width: 720px;
 }
+
+.text-tali-black-25 {
+  --tw-text-opacity: 1;
+  color: rgb(196 196 199 / var(--tw-text-opacity));
+}
+.circle-gradient-number {
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background-image: linear-gradient(90deg, #f1f4ff, #f1f4ff),
+    linear-gradient(275.77deg, #ffb40d 4.98%, #a25ecb 26.4%);
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+}

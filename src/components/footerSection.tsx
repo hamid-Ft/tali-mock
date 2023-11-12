@@ -31,13 +31,9 @@ const FooterSection = () => {
               data-style="color: transparent;"
             />
           </div>
-          <div className="Footer_products Footer_footerColumn">
-            <div
-              className="Text_container"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="Text_darkParagraph Text_paragraph2 Footer_title">
-                Tali
-              </div>
+          <div className="grid gap-3">
+            <div className="justify-start text-start max-w-2xl">
+              <div className="font-bold text-sm text-[#e7e7e7]">Tali</div>
             </div>
             <a href="/features">Product</a>
             <a href="/pricing">Pricing</a>
@@ -45,37 +41,25 @@ const FooterSection = () => {
             <Link href="/install">Install</Link>
             <a href="/security-privacy">Security and Privacy</a>
           </div>
-          <div className="Footer_support Footer_footerColumn">
-            <div
-              className="Text_container"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="Text_darkParagraph Text_paragraph2 Footer_title">
-                Support
-              </div>
+          <div className="grid gap-3">
+            <div className="justify-start text-start max-w-2xl">
+              <div className="font-bold text-sm text-[#e7e7e7]">Support</div>
             </div>
             <a href="/resources">Resources</a>
             <a href="/contact-us">Contact Us</a>
             <a href="/faq">FAQ</a>
           </div>
-          <div className="Footer_legal Footer_footerColumn">
-            <div
-              className="Text_container"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="Text_darkParagraph Text_paragraph2 Footer_title">
-                Legal
-              </div>
+          <div className="grid gap-3">
+            <div className="justify-start text-start max-w-2xl">
+              <div className="font-bold text-sm text-[#e7e7e7]">Legal</div>
             </div>
             <a href="/terms-of-use">Terms of Use</a>
             <a href="/privacy-policy">Privacy Policy</a>
             <a href="/cookie-policy">Cookies Policy</a>
           </div>
-          <div className="Footer_icons Footer_footerColumn">
-            <div
-              className="Text_container"
-              data-style="justify-content: flex-start; text-align: start;">
-              <div className="Text_darkParagraph Text_paragraph2 Footer_title">
-                Follow Us
-              </div>
+          <div className="grid gap-3">
+            <div className="justify-start text-start max-w-2xl">
+              <div className="font-bold text-sm text-[#e7e7e7]">Follow Us</div>
             </div>
             <div className="Footer_iconsWrapper flex">
               <a
@@ -120,14 +104,10 @@ const FooterSection = () => {
       <div className="Footer_footerFooter">
         <div className="Footer_copyrightContainer">
           <div className="Footer_copyrightText">
-            <div
-              className="Text_container"
-              data-style="justify-content: flex-start; text-align: start;">
+            <div className="justify-start text-start max-w-2xl">
               <div className="Text_darkParagraph Text_copyright">Tali AI</div>
             </div>
-            <div
-              className="Text_container"
-              data-style="justify-content: flex-start; text-align: start;">
+            <div className="justify-start text-start max-w-2xl">
               <div className="Text_darkParagraph Text_copyright">
                 Copyright © 2023
               </div>
