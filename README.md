@@ -27,7 +27,7 @@ WordPress dev , React , tailwind
 
 # Tali-Mock
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). try to show cases my UI skills on creating mock form two pages of [tali.ai website](https://tali.ai)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). try to show cases my Tailwind UI skills on creating mock form two pages of [tali.ai website](https://tali.ai)
 
 ![1699788093776](image/README/1699788093776.png)
 
