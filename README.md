@@ -18,7 +18,7 @@ I'm a junior react developer
 
 🧠 I'm currently learning nextJs
 
-🤹🏻‍♂️ i've mastered css-plate , grid garden , flex zombies, css battle , w3school ,free codecamp ui courses
+🤹🏻‍♂️ i've mastered CSS Plate , Grid Garden , Flex Zombies, CSS Battle, 100Days CSS , w3school ,free codecamp ui courses
 ![1699788071203](image/README/1699788071203.png)
 
 ## 🛠 Skills
